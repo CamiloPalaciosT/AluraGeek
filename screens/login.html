@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/error404/error404.css">
+    <link rel="stylesheet" href="../CSS/body.css">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/article.css">
+    <link rel="stylesheet" href="../CSS/formulario.css">
+    <link rel="stylesheet" href="../CSS/login/formularioLogin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Login - Alura Geek</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../img/Logo.png" alt="logo de AluraGeek" srcset=""></a>
+        <div class="barra__busqueda"><textarea name="texto__busqueda" id="textoBuscar" cols="55" rows="1" placeholder="¿Que deseas buscar?"></textarea><ion-icon name="search-outline"></ion-icon></div>
+        <a class="header__boton" href="./screens/login.html">Login</a>
+    </header>
+    <main>
+
+        <!----------------------------------->
+        <!-------------- LOGIN -------------->
+        <!----------------------------------->
+
+        <div class="formulario__login">
+            <div class="formulario-login container">
+                <h3 class="formulario-login__titulo">Iniciar Sesión</h2>
+                <form action="" class="formulario-login_form">
+                    <div class="formulario-login__input-container">
+                        <label class="input-label" for="usuario">Escribe tu usuario</label>
+                        <input name="usuario" id="mensaje" class="input__altura" type="text" placeholder="" required data-tipo="usuario" data-form-usuario>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="formulario-login__input-container">
+                        <label class="input-label" for="contraseña">Escribe tu contraseña</label>
+                        <input name="contraseña" id="mensaje" class="input__altura" type="password" placeholder="" required   data-tipo="contraseña" data-form-contraseña>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <input class="nav__boton__login" type="submit" name="enviar" id="enviar-login" value="Entrar">
+                </form>
+            </div>
+        </div>
+
+        <!----------------------------------->
+        <!------------- CONTACTO ------------>
+        <!----------------------------------->
+
+        <div class="formulario">
+            <div class="imagen__contacto">
+                <img src="../img/Logo.png" alt="">
+            </div>
+            <div class="links__interes">
+                <h5><a href="../screens/error404.html">Quienes somos</a></h5>
+                <h5><a href="../screens/error404.html">Politica de privacidad</a></h5>
+                <h5><a href="../screens/error404.html">Programa de fidelidad</a></h5>
+                <h5><a href="../screens/error404.html">Nuestras Tiendas</a></h5>
+                <h5><a href="../screens/error404.html">Quiero ser franquiciado</a></h5>
+                <h5><a href="../screens/error404.html">Anuncie aqui</a></h5>
+            </div>
+            <div class="formulario__dos">
+                <h1>Hable con Nosotros</h1>
+                <form action="#" method="POST">
+                    <div class="cuadro__blanco">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" required><br><br>
+                    </div>
+
+                    <div>
+                        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required placeholder="Escribe  tu Mensaje Aqui:"></textarea><br><br>
+                    </div>
+                    <input class="nav__boton" type="submit" value="Enviar mensaje">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!----------------------------------->
+    <!-------------- FOOTER ------------->
+    <!----------------------------------->
+
+    <footer><h5>Desarrollado Por: Camilo Palacios <br><br>2023</h5></footer>
+
+    <script src="../controllers/busqueda.controller.js" type="module"></script>
+    <script src="../js/login.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/app.js" type="module"></script>
+</body>    
+</html>

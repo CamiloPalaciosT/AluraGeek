@@ -1,0 +1,30 @@
+article{
+    height: auto;
+    width: 100vw;
+    padding-bottom: 15%;
+}
+.funko__pops{
+    height: auto;
+    width: 100vw;
+}
+.titulo__seccion{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo__seccion a{
+    margin-right: 5%;
+}
+.ver__link{
+    color: #2A7AE4;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+.barra__lateral{
+    display: flex;
+}

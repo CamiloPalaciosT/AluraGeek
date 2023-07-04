@@ -1,0 +1,33 @@
+nav{
+    background-image: url(../img/banner-image.png);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.texto__promocional{
+    position: relative;
+    color: #ffffff;
+    margin-left: 5%;
+}
+.texto__promocional h2{
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 4%;
+}
+.texto__promocional h3{
+    margin-bottom: 4%;
+}
+.nav__boton {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background: #2A7AE4;;
+    padding: 0.7rem 2.4rem;
+    border-radius: 5px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-right: 7%;
+}
+.nav__boton:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.25);
+}

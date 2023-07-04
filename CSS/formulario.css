@@ -1,0 +1,50 @@
+.formulario{
+    background: #EAF2FD;
+    width: 100%;
+    display: flex;
+}
+.imagen__contacto{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1 1 40%;
+    padding-right: 15%;
+}
+.imagen__contacto img{
+    width: 100%;
+    margin-left: 30%;
+}
+.links__interes{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.formulario__dos h1{
+    margin-bottom: 3%;
+}
+.cuadro__blanco{
+    background: white;
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+    border-bottom: 2px solid #2A7AE4;
+    border-width: 0 0 2px 0;
+    margin-bottom: 4%;
+}
+.cuadro__blanco input{
+    all: unset;
+    width: 90%;
+}
+.cuadro__blanco label{
+    color: #646262;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1rem;
+}
+#mensaje{
+    border-bottom: 2px solid #2A7AE4;
+    border-width: 0 0 2px 0;
+    width: 94%;
+    border-radius: 10px;
+    color: #A2A2A2;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1rem;
+}
