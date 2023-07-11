@@ -2,190 +2,128 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek</title>
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="./CSS/body.css">
-    <link rel="stylesheet" href="./CSS/nav.css">
-    <link rel="stylesheet" href="./CSS/header.css">
-    <link rel="stylesheet" href="./CSS/article.css">
-    <link rel="stylesheet" href="./CSS/formulario.css">
+    <link rel="icon" href="./assets/img/geek_vector.svg">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/productos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="stylesheet" href="./assets/css/rodapie.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Alura Geek</title>
 </head>
 <body>
-    <header>
-        <a href="./index.html"><img src="./img/Logo.png" alt="logo de AluraGeek" srcset=""></a>
-        <div class="barra__busqueda"><textarea name="texto__busqueda" id="textoBuscar" cols="55" rows="1" placeholder="¿Que deseas buscar?"></textarea><ion-icon name="search-outline"></ion-icon></div>
+    <header class="header container">
+        <div class="header_info">
+            <a href="./index.html"><img class="header__logo" src="./assets/img/Logo.svg" alt="logo de alura geek"></a>
+            <input class="header__input" type="text" placeholder="¿Que deseas buscar?" data-buscador>
+            <img class="header__lupa" src="./assets/img/lupa.svg" alt="lupa">
+        </div>
         <a class="header__boton" href="./screens/login.html">Login</a>
+        <img class="header__lupa-mobile" src="./assets/img/lupa-mobile.svg" alt="lupa">
     </header>
-    <nav>
-        <div class="texto__promocional">
-            <h2>Julio Promocional</h2>
-            <h3>Productos seleccionados con 33% de descuento</h3><br>
-            <a class="nav__boton" href="#">Ver Consolas</a>
-    </nav>
-    <article>
-        <section class="funko__pops">
-            <div class="titulo__seccion">
-                <h4>Funko Pops</h4>
-                <a class="ver__link" href="#">Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></a>
+    <main>
+
+        <!--------------------------------->
+        <!------------ BANNER ------------->
+        <!--------------------------------->
+
+        <section class="banner">
+            <div class="banner__contenido container">
+                <h1 class="banner__titulo">Julio Promocional</h1>
+                <p class="banner__texto">Productos seleccionados con 33% de descuento</p>
+                <a class="banner__boton" href="#consolas">Ver Consolas</a>
             </div>
-            <div class="barra__lateral">
-                <div class="cuadro__img">
-                    <img src="./img/naruto.jpeg" alt="funko pop naruto">
-                    <h5>Naruto</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
+        </section>
+
+        <!---------------------------------->
+        <!------------ PRODUCTOS ----------->
+        <!---------------------------------->
+
+        <section class="seccion__productos">
+            <div class="productos container">
+                <div class="star_wars">
+                    <div class="star_wars__head">
+                        <h1 class="star_wars__head__titulo-principal">Funco Pop's</h1>
+                        <a class="star_wars__head__boton" href="./screens/todos-productos.html">Ver todo</a>
+                    </div>
+                    <div class="productos_index" data-star-wars>
+
+                    </div>
                 </div>
-                <div class="cuadro__img">
-                    <img src="./img/BabyYoda.jpeg" alt="funko pop baby yoda">
-                    <h5>Baby Yoda</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
+                <div id="consolas" class="consolas">
+                    <div class="consolas__head">
+                        <h1 class="consolas__head__titulo-principal">Consolas</h1>
+                        <a class="consolas__head__boton" href="./screens/todos-productos.html">Ver todo</a>
+                    </div>
+                    <div class="productos_index" data-consolas>
+                        
+                    </div>
                 </div>
-                <div class="cuadro__img">
-                    <img src="./img/flash.jpeg" alt="funko pop flash">
-                    <h5>Flash</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/mujer.jpeg" alt="funko pop hopolita">
-                    <h5>Hipolita</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/mujer2.webp" alt="funko pop naruto">
-                    <h5>Doctor Strange</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/spiderman.webp" alt="funko pop naruto">
-                    <h5>SpiderMan</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-            </div>
-        </section> <br><br><br><br><br>
-        <section>
-            <div class="titulo__seccion">
-                <h4>Consolas</h4>
-                <a class="ver__link" href="#">Ver mas <ion-icon name="arrow-forward-outline"></ion-icon></a>
-            </div>
-            <div class="barra__lateral">
-                <div class="cuadro__img">
-                    <img src="./img/PS5.webp" alt="Play Station 5">
-                    <h5>Play Station 5</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/SWITCH.jpeg" alt="Nintendo Switch">
-                    <h5>Nintendo Switch</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/xbox.webp" alt="XBOX Series X">
-                    <h5>XBOX Series X</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/xbox_blanca.webp" alt="XBOX Series S">
-                    <h5>XBOX Series S</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/SUP.webp" alt="sUP">
-                    <h5>SUP</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/sup_mini.jpeg" alt="Sup Mini">
-                    <h5>SUP Mini</h5>
-                    <h6>$60.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-            </div>
-        </section><br><br><br><br><br>
-        <section>
-            <div class="titulo__seccion">
-                <h4>Accesorios</h4>
-                <a class="ver__link" href="#">Ver mas<ion-icon name="arrow-forward-outline"></ion-icon></a>
-            </div>
-            <div class="barra__lateral">
-                <div class="cuadro__img">
-                    <img src="./img/diademaKG.jpeg" alt="Diadema KG">
-                    <h5>Diadema KG</h5>
-                    <h6>$59.900</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/comboTrust.jpeg" alt="Combo TRUST Alámbrico 4 en 1">
-                    <h5>Combo TRUST</h5>
-                    <h6>$148.900</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/morralHPTravel.jpg" alt="Morral HP Travel">
-                    <h5>Morral HP Travel</h5>
-                    <h6>$109.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/palanca.jpeg" alt="Palanca G920">
-                    <h5>Palanca G920</h5>
-                    <h6>$339.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/base_refrigenrante.jpeg" alt="base refrigentante">
-                    <h5>Base Refrigerante</h5>
-                    <h6>$159.900</h6>
-                    <a class="ver__link" href="#">ver producto</a>
-                </div>
-                <div class="cuadro__img">
-                    <img src="./img/netflix.jpeg" alt="Pin Netflix">
-                    <h5>Pin Netflix</h5>
-                    <h6>$20.000</h6>
-                    <a class="ver__link" href="#">ver producto</a>
+                <div class="diversos">
+                    <div class="diversos__head">
+                        <h1 class="diversos__head__titulo-principal">Diversos</h1>
+                        <a class="diversos__head__boton" href="./screens/todos-productos.html">Ver todo</a>
+                    </div>
+                    <div class="productos_index" data-diversos>
+                        
+                    </div>
                 </div>
             </div>
         </section>
-    </article>
-        <div class="formulario">
-            <div class="imagen__contacto">
-                <a href="./index.html"><img src="./img/Logo.png" alt=""></a>
-            </div>
-            <div class="links__interes">
-                <h5><a href="./screens/error404.html">Quienes somos</a></h5>
-                <h5><a href="./screens/error404.html">Politica de privacidad</a></h5>
-                <h5><a href="./screens/error404.html">Programa de fidelidad</a></h5>
-                <h5><a href="./screens/error404.html">Nuestras Tiendas</a></h5>
-                <h5><a href="./screens/error404.html">Quiero ser franquiciado</a></h5>
-                <h5><a href="./screens/error404.html">Anuncie aqui</a></h5>
-            </div>
-            <div class="formulario__dos">
-                <h1>Hable con Nosotros</h1>
-                <form action="#" method="POST">
-                    <div class="cuadro__blanco">
-                        <label for="nombre">Nombre:</label><br>
-                        <input type="text" id="nombre" name="nombre" required><br><br>
-                    </div>
 
-                    <div>
-                        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required placeholder="Escribe  tu Mensaje Aqui:"></textarea><br><br>
-                    </div>
-                    <input class="nav__boton" type="submit" value="Enviar mensaje">
-                </form>
+        <!----------------------------------->
+        <!------------- CONTACTO ------------>
+        <!----------------------------------->
+
+        <section class="footer">
+            <div class="contenido__footer container">
+                <div class="contenido__footer_info">
+                    <a href="./index.html"><img class="header__logo" src="./assets/img/Logo.svg" alt="logo de alura geek"></a>
+                    <ul  class="footer_links">
+                        <li class="footer__enlace"><a href="./screens/error404.html">Quienes somos</a></li>
+                        <li class="footer__enlace"><a href="./screens/error404.html">Politica de privacidad</a></li>
+                        <li class="footer__enlace"><a href="./screens/error404.html">Programa de fidelidad</a></li>
+                        <li class="footer__enlace"><a href="./screens/error404.html">Nuestras Tiendas</a></li>
+                        <li class="footer__enlace"><a href="./screens/error404.html">Quiero ser franquiciado</a></li>
+                        <li class="footer__enlace"><a href="./screens/error404.html">Anuncie aqui</a></li>
+                    </ul>
+                </div>
+                <div class="footer_formulario">
+                    <h3 class="footer_formulario__titulo">Hable con nosotros</h2>
+                    <form action="">
+                        <div class="formulario__input-container">
+                            <input name="nombre" id="nombre" class="input inputs" type="text" placeholder="" required data-tipo="nombre">
+                            <label class="input-label" for="nombre">Nombre</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="formulario__textarea-container">
+                            <textarea name="mensaje" id="mensaje" class="textarea inputs" rows="5" type="text" placeholder="" required data-tipo="mensaje"></textarea>
+                            <label class="input-label" for="mensaje">Escribe tu mensaje</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <input class="boton-form" type="submit" name="enviar" id="enviar" value="Enviar Mensaje">
+                    </form>
+                </div>
             </div>
-        </div>
-        <footer><h5>Desarrollado Por: Camilo Palacios <br><br>2023</h5></footer>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </section>
+    </main>
+
+    <!----------------------------------->
+    <!-------------- FOOTER ------------->
+    <!----------------------------------->
+
+    <footer class="rodapie">
+        <p class="rodapie__texto">Desarrollado por Camilo Palacios</p>
+        <p class="rodapie__texto">2023</p>
+    </footer>
+
+    <script src="/controllers/busqueda.controller.js" type="module"></script>
+    <script src="./controllers/client.controller.js" type="module"></script>
+    <script src="./js/app.js" type="module"></script>
 </body>
 </html>

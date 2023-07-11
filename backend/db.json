@@ -1,0 +1,148 @@
+{
+  "productos": [
+    {
+      "nombre": "Naruto",
+      "precio": "60.000",
+      "imagen": "https://funko.com/pop-naruto-uzumaki/46626.html",
+      "id": "1",
+      "categoria": "Funco Pop",
+      "descripcion": "El Funko Pop de Naruto captura la esencia del personaje con detalles precisos y colores vibrantes. Naruto Uzumaki es representado con su icónico traje naranja y su característico cabello rubio en forma de picos. Además, la figura puede incluir accesorios como su banda ninja en la frente y su kunai, una de sus armas favoritas."
+    },
+    {
+      "nombre": "Baby Yoda",
+      "precio": "60.000",
+      "imagen": "https://pedidos.co/tienda/producto/funko-pop-the-child-baby-yoda-star-wars/",
+      "id": "2",
+      "categoria": "Funco Pop",
+      "descripcion": "El Funko Pop de Baby Yoda es una figura coleccionable basada en el adorable personaje de la serie de televisión The Mandalorian. Esta figura captura la esencia de Baby Yoda, también conocido como The Child, con su encantadora apariencia y expresión facial."
+    },
+    {
+      "nombre": "Flash",
+      "precio": "60.000",
+      "imagen": "https://www.dchobbies.com.co/product-page/funko-pop-movies-the-flash-the-flash",
+      "id": "3",
+      "categoria": "Funco Pop",
+      "descripcion": "El Funko Pop de Flash es una figura coleccionable basada en el popular superhéroe de DC Comics, conocido por su velocidad sobrehumana. Esta figura captura la esencia del personaje con detalles precisos y colores vibrantes."
+    },
+    {
+      "nombre": "Hipolita",
+      "precio": "60.000",
+      "imagen": "https://www.ebay.com/itm/195550674431",
+      "id": "4",
+      "categoria": "Funco Pop",
+      "descripcion": "El Funko Pop de Hipólita muestra al personaje en su icónico traje de guerrera amazona, con su armadura y su característica corona. La figura refleja su postura valiente y poderosa, transmitiendo su fuerza y liderazgo. Además, puede incluir detalles adicionales como su espada y escudo, símbolos de su habilidad en la batalla."
+    },
+    {
+      "nombre": "Doctor Strange",
+      "precio": "60.000",
+      "imagen": "https://www.lacalionline.com/funko-pop-marvel-doctor-strenge",
+      "id": "5",
+      "categoria": "Funco Pop",
+      "descripcion": "El Funko Pop de Doctor Strange muestra al personaje en su icónico traje de hechicero, con su capa roja y su amuleto del Ojo de Agamotto en el pecho. La figura refleja su postura segura y confiada, transmitiendo su poder y sabiduría en las artes místicas. Además, puede incluir detalles adicionales como sus manos en posición de conjuro y su característico bigote."
+    },
+    {
+      "nombre": "SpiderMan",
+      "precio": "60.000",
+      "imagen": "https://www.mandragorastore.com/product/funko-pop-spiderman-movies-spider-man-220/",
+      "id": "6",
+      "categoria": "Funco Pop",
+      "descripcion": "La figura presenta la postura ágil y dinámica de Spider-Man, como si estuviera balanceándose entre edificios o lanzando sus telarañas. Además, puede incluir detalles adicionales como su máscara con los grandes ojos blancos y su característica telaraña en el pecho."
+    },
+    {
+      "nombre": "Play Station 5",
+      "precio": "3.499.000",
+      "imagen": "https://www.mercadolibre.com.co/sony-playstation-5-825gb-standard-color-blanco-y-negro/p/MCO16171888",
+      "id": "7",
+      "categoria": "Consolas",
+      "descripcion": "La PlayStation 5 (PS5) es una consola de videojuegos de última generación. Ofrece gráficos impresionantes, una experiencia de juego inmersiva y una amplia variedad de títulos emocionantes."
+    },
+    {
+      "nombre": "Nintendo Switch",
+      "precio": "2.142.000",
+      "imagen": "https://www.falabella.com.co/falabella-co/product/4193205/Consola-Nintendo-Switch-1.1/4193205",
+      "id": "8",
+      "categoria": "Consolas",
+      "descripcion": "La Nintendo Switch es una consola de videojuegos híbrida que combina la experiencia de juego en casa y en movimiento."
+    },
+    {
+      "nombre": "Xbox Series X",
+      "precio": "3.389.000",
+      "imagen": "https://www.xbox.com/es-CO/consoles/xbox-series-x",
+      "id": "9",
+      "categoria": "Consolas",
+      "descripcion": "La Xbox Series X es una potente consola de videojuegos de última generación con gráficos de alta calidad y tiempos de carga rápidos."
+    },
+    {
+      "nombre": "Xbox Series S",
+      "precio": "1.949.000",
+      "imagen": "https://www.exito.com/consola-series-s-xbox-rrs-00004-3001513/p",
+      "id": "10",
+      "categoria": "Consolas",
+      "descripcion": "La Xbox Series S es una consola de videojuegos compacta y asequible que ofrece una experiencia de juego de alta calidad en resolución 1440p."
+    },
+    {
+      "nombre": "Play Station 4",
+      "precio": "1.749.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_817486-MLA32731749427_112019-O.webp",
+      "id": "11",
+      "categoria": "Consolas",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habit."
+    },
+    {
+      "nombre": "Steam Deck",
+      "precio": "3.249.000",
+      "imagen": "https://gorilagames.com/img/Public/1019-producto-steam-deck-3-3726.jpg",
+      "id": "12",
+      "categoria": "Consolas",
+      "descripcion": "La Steam Deck es una consola portátil desarrollada por Valve que permite a los jugadores disfrutar de su biblioteca de juegos de Steam en cualquier lugar. Ofrece una pantalla táctil de alta resolución, controles integrados y la capacidad de conectar periféricos adicionales."
+    },
+    {
+      "nombre": "Camisa Atari",
+      "precio": "12.000",
+      "imagen": "https://i.ibb.co/B3V2KrM/diversos-1.png",
+      "id": "13",
+      "categoria": "Diversos",
+      "descripcion": "Una camisa Atari es una prenda de vestir con el icónico logotipo de Atari, una reconocida empresa pionera en la industria de los videojuegos. Es una forma de mostrar tu amor por los clásicos juegos de Atari y la nostalgia de la era de los videojuegos retro."
+    },
+    {
+      "nombre": "Camisa SNES",
+      "precio": "12.000",
+      "imagen": "https://i.ibb.co/r2L7LDq/diversos-2.png",
+      "id": "14",
+      "categoria": "Diversos",
+      "descripcion": "Una camisa SNES es una prenda de vestir con el icónico logotipo de Atari, una reconocida empresa pionera en la industria de los videojuegos. Es una forma de mostrar tu amor por los clásicos juegos de Atari y la nostalgia de la era de los videojuegos retro."
+    },
+    {
+      "nombre": "Control y consola play 5",
+      "precio": "255.000",
+      "imagen": "https://gmedia.playstation.com/is/image/SIEPDC/dualsense-thumbnail-ps5-01-en-17jul20?$800px$",
+      "id": "15",
+      "categoria": "Diversos",
+      "descripcion": "El control de PS5 es el mando de juego diseñado específicamente para la consola PlayStation 5. Ofrece una experiencia de juego inmersiva con retroalimentación háptica, gatillos adaptativos y un diseño ergonómico para mayor comodidad durante largas sesiones de juego."
+    },
+    {
+      "nombre": "Control y consola play 4",
+      "precio": "105.000",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJoohoRJwFSfE7wM39jcWqBj-3L0YnciKYEA&usqp=CAU",
+      "id": "16",
+      "categoria": "Diversos",
+      "descripcion": "El control de PS4 es el mando de juego diseñado para la consola PlayStation 4. Ofrece controles intuitivos, un diseño ergonómico y una amplia gama de funciones, como panel táctil, altavoz integrado y sensores de movimiento, para una experiencia de juego completa y envolvente."
+    },
+    {
+      "nombre": "Control y consola Xbox Series",
+      "precio": "255.000",
+      "imagen": "https://i.ibb.co/LpY04k4/diversos-5.png",
+      "id": "17",
+      "categoria": "Diversos",
+      "descripcion": "El control de Xbox Series es el mando de juego para Xbox Series. Cómodo, preciso y compatible con dispositivos adicionales."
+    },
+    {
+      "nombre": "Pin Netflix",
+      "precio": "20.000",
+      "imagen": "https://exitocol.vtexassets.com/arquivos/ids/17257403/Pin-Virtual-Netflix-30000-1737496_a.jpg?v=638157251678970000",
+      "id": "18",
+      "categoria": "Diversos",
+      "descripcion": "El PIN de Netflix es un código de seguridad que se utiliza para restringir el acceso a ciertos contenidos en la plataforma de streaming."
+    }
+  ]
+}
